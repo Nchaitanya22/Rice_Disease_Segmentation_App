@@ -13,7 +13,7 @@ import platform
 # -----------------------------
 @st.cache_resource
 def load_model():
-    model = YOLO("best(4).pt")  # Use the local file in the GitHub repo
+    model = YOLO('best4.pt')  # Use the local file in the GitHub repo
     return model
 
 model = load_model()
